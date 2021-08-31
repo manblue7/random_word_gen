@@ -1,10 +1,7 @@
 import random
 from tkinter.constants import CENTER
-import pandas as pd
-import json
 import dictionary
 import PySimpleGUI as sg
-import time
 
 
 
@@ -38,3 +35,4 @@ while True:
             displayedWords.append(words[random.randint(0, len(words))])
         print('\nNumber of random words generated: {}'.format(len(words)))
         window['words'].update(displayedWords)
+
